@@ -9,7 +9,12 @@ Meteor.startup(()=>{
     let title = 'Score Keeper';
    
     Tracker.autorun(()=>{
-        let dbPlayers = Players.find().fetch();
+        let dbPlayers = Players.find({},{
+            sort:{
+                score:-1,
+                name:1
+            }
+        }).fetch();
         ReactDOM.render(<App title={title} players={dbPlayers}/>, document.getElementById('app'));
     });
 });
