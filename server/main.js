@@ -58,6 +58,19 @@ Meteor.startup(()=>{
     // // console.log(me.hasJob());
     // console.log(me.getPersonDescription());
 
-   
+//    let house = {
+//        bedrooms: 2,
+//        bathrooms: 1.5
+//    };
+//    let yearBuilt = 1985;
+
+//    let myHouse = {
+//        ...house,
+//        bedrooms: 3,
+//        yearBuilt,
+//        flooring: 'carpet'
+//    }
     
+//    console.log(myHouse);
+   
 });

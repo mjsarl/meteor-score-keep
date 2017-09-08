@@ -11,3 +11,18 @@
     font-weight: 300;
     text-align: center;
 }
+
+.item--position-1 {
+    background: $green;
+    border: 2px solid $green-border;
+}
+
+.item--position-2 {
+    background: $blue;
+    border: 2px solid $blue-border;
+}
+
+.item--position-3 {
+    background: $red;
+    border: 2px solid $red-border;
+}
